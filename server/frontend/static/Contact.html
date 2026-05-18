@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <!-- Link the style sheet here -->
+    <link rel="stylecheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+        <h2 style="padding-right: 5%;">Dealerships</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="card" style="width: 60%; margin: auto; margin-top: 5%; text-align: center;">
+    <div class="banner" name="contact-header">
+        <!-- Insert header information here -->
+        <h1>Contact Us</h1>
+        Welcome to Best Cars dealership. If you have any questions or would like to visit us, please find our
+        contact details below!
+    </div>
+    <div style="display: flex; flex-direction: row; margin: auto; justify-content: center; gap: 20px; padding: 15px;">
+        <div class="card" style="width: 45%;">
+            <img class="card-img-top" src="/static/cars.jpeg" alt="Best Cars Showroom"
+                style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+                <p class="title"><b>Our Showroom</b></p>
+                <p class="text-muted">Explore & Test Drive</p>
+                <p class="card-text">Explore our collection of the finest domestic and imported vehicles. Step in
+                    today and test drive your dream car!</p>
+                <p class="card-text"><b>Address:</b> 123 Car Dealership Lane, Austin, TX</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 45%;">
+            <img class="card-img-top" src="/static/contactus.png" alt="Contact details"
+                style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+                <p class="title"><b>Customer Support</b></p>
+                <p class="text-muted">Sales & Service</p>
+                <p class="card-text">Our customer care team is here to help you with purchase inquiries, financing
+                    options, or service scheduling.</p>
+                <p class="card-text"><b>Phone:</b> +1 555-555-5555</p>
+                <p><a href="mailto:support@bestcars.com">support@bestcars.com</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
